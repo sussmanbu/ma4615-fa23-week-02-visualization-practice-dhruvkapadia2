@@ -47,13 +47,33 @@ geom_line(aes(x = Date, y = (Deaths_Latinx/Latinx_population)*1000), color = "or
   labs(title = "Cumulative Death Rate Per Capita Amongst Racial Groups in New Jersey", y = "Cumulative Death Rate per 1,000 People") + 
   theme_bw()
 ```
-The graph above captures the cumulative rates of COVID-19-related deaths by race per 1,000 people in New Jersey for the state's four major racial groups. As demonstrated in the graph above, Black New Jerseyans have the highest cumulative death rate per capita relative to any other racial group. Conversely, Asian New Jerseyans have the lowest cumulative death rate per capita relative to any other racial group. It is also important to note that White, Latinx, and Black New Jerseyans have a cumulative death rate increasing at approximately the same rate since January. 
+The graph above captures the cumulative rates of COVID-19-related deaths by race per 1,000 people in 
+New Jersey for the state's four major racial groups. As demonstrated in the graph above, Black New 
+Jerseyans have the highest cumulative death rate per capita relative to any other racial group. 
+Conversely, Asian New Jerseyans have the lowest cumulative death rate per capita relative to any other
+racial group. It is also important to note that White, Latinx, and Black New Jerseyans have a 
+cumulative death rate increasing at approximately the same rate since January. 
 
 2. Are there any conclusions you can draw?
-As demonstrated in the graph above, Black New Jerseyans have the worst observable cumulative death rate associated to COVID-19 relative to other races. However, we cannot conclude that the true cumulative death rate of Black New Jerseyans is significantly worse than other racial groups without hypothesis testing. We also cannot explain why Black New Jerseyans were worst affected by COVID using the graph above. However, we can infer a myriad of reasons, from a lack of public health infrastructure to low vaccination rates in the Black community (due to historical mistrust with the medical community), behind why the Black cumulative death rate is significantly worse. Likewise, we cannot conclude why Asian New Jerseyans have the best outcomes with COVID-19 related deaths relative to other racial groups.
+As demonstrated in the graph above, Black New Jerseyans have the worst observable cumulative death 
+rate associated to COVID-19 relative to other races. However, we cannot conclude that the true 
+cumulative death rate of Black New Jerseyans is significantly worse than other racial groups without 
+hypothesis testing. We also cannot explain why Black New Jerseyans were worst affected by COVID using 
+the graph above. However, we can infer a myriad of reasons, from a lack of public health 
+infrastructure to low vaccination rates in the Black community (due to historical mistrust with the 
+medical community), behind why the Black cumulative death rate is significantly worse. Likewise, we 
+cannot conclude why Asian New Jerseyans have the best outcomes with COVID-19 related deaths relative 
+to other racial groups.
 
 3. What were you not able to do due to not having the R knowledge?
-I was unable to more effectively merge multiple data sets (I ended up using the more inefficient merge function) in order to compare my x and y variables. I also was unable to break down the data in a more granular way, as I had initially hoped to isolate post-January months rather than all of the available dates in the datasets. More generally, I was unable to make the graph aesthetically pleasing. While I randomly assigned colors to each racial group, I would've like to experiment more with color, line thickness, and line style.
+I was unable to more effectively merge multiple data sets (I ended up using the more inefficient merge
+function) in order to compare my x and y variables. I also was unable to break down the data in a more
+granular way, as I had initially hoped to isolate post-January months rather than all of the available
+dates in the datasets. More generally, I was unable to make the graph aesthetically pleasing. While I
+randomly assigned colors to each racial group, I would've like to experiment more with color, line
+thickness, and line style.
 
 4. What other data would be useful to better understand this data?
-It would have been helpful to have death counts per day by race rather than a cumulative death count. This would have given me the changes in death rate over time, which could have been interesting to measure when considering the effect of vaccines within certain communities.
+It would have been helpful to have death counts per day by race rather than a cumulative death count.
+This would have given me the changes in death rate over time, which could have been interesting to
+measure when considering the effect of vaccines within certain communities.
